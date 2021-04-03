@@ -17,15 +17,15 @@
   <p>To keep things simple and easy to use, Simple Discord revolves around the use of parameters. A parameter is something you put in a function's parenthesis that tells the function how to behave. Lets look at an example:</p>
   <br>
   <code>from simple_discord import simple_discord #Import the library
-  <br>
+
   discord_bot = simple_discord.simple_discord_bot()
-  <br>
-  discord_bot.add_command("!test", "You just created a Discord bot!") #The first two parameters are required. The first one is the message that you send to trigger the response, and the #second one is the message the bot will respond with.
-  <br>
+
+  discord_bot.add_command("!test", "You just created a Discord bot!") #The first two parameters are required. The first one is the message that you send to               trigger the response, and the #second one is the message the bot will respond with.
+ 
   discord_bot.add_command("!ping", "Pong!") #You have no limit on the commands you can add to your bot.
-  <br>
+  
   discord_bot.set_token("Put your bot's token here") #Put your bot's token in the double quotes.</code>
-  <br>
+
   <br>
   <h3><b>CAUTION</b></h3>
   <p>The "set_token" method has to always come at the end of the file. This is because the "set_token" method will start your bot, and everything after that line will be ignored.</p>
