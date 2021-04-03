@@ -76,13 +76,15 @@
   Example of a bot that reacts with a 😁 to the person's message and DMs the person a message saying "Thank you for using this bot!":
   <br>
   <br>
-  <code>from simple_discord import simple_discord #Import the library
-  <br>
-  discord_bot = simple_discord.simple_discord_bot() #Make our object to connect to Discord.
-  <br>
-  discord_bot.add_command("!hi", "Done.", react_to="command", reaction="😁", DM="Thank you for using this bot!")
-  <br>
-  discord_bot.set_token("Put your bot's token here") #Put your bot's token in the double quotes.
+  <code>
+  
+    from simple_discord import simple_discord #Import the library
+    
+    discord_bot = simple_discord.simple_discord_bot() #Make our object to connect to Discord.
+    
+    discord_bot.add_command("!hi", "Done.", react_to="command", reaction="😁", DM="Thank you for using this bot!")
+    
+    discord_bot.set_token("Put your bot's token here") #Put your bot's token in the double quotes.
   </code>
   <br>
   <br>
