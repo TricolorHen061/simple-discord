@@ -1,7 +1,6 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Simple Discord</title>
 </head>
 <body>
   <h1>Introduction</h1>
