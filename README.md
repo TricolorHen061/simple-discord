@@ -91,13 +91,15 @@
   Example of a bot that joins a voice channel and plays music from a file called "audiosource.mp3":
   <br>
   <br>
-  <code>from simple_discord import simple_discord #Import the library
-  <br>
-  discord_bot = simple_discord.simple_discord_bot() #Make our object to connect to Discord.
-  <br>
-  discord_bot.add_command("!play", "Playing.", connect_to_voicechannel=True, source_to_play="audiosource.mp3")
-  <br>
-  discord_bot.set_token("Put your bot's token here") #Put your bot's token in the double quotes.
+  <code>
+  
+    from simple_discord import simple_discord #Import the library
+
+    discord_bot = simple_discord.simple_discord_bot() #Make our object to connect to Discord.
+  
+    discord_bot.add_command("!play", "Playing.", connect_to_voicechannel=True, source_to_play="audiosource.mp3")
+  
+    discord_bot.set_token("Put your bot's token here") #Put your bot's token in the double quotes.
   </code>
 <h1>Bot settings</h1>
 <hr>
@@ -130,9 +132,13 @@
 <code>
     
     from simple_discord import simple_discord_bot #Import the library
+    
     discord_bot = simple_discord.simple_discord_bot()
+    
     discord_bot.add_command("!hi", "Hello!) #Add a command
+    
     discord_bot.config(show_dms=True, status="idle", activity="This is a bot made with simple_discord!") #Changing some settings
+    
     discord_bot.set_token("Token Here") #Put your token there.
 </code>
 
