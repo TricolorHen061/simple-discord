@@ -128,15 +128,12 @@
 <hr>
 <p>Lets look at examples of how to use settings for your bot:</p>
 <code>
-  from simple_discord import simple_discord_bot #Import the library
-  <br>
-  discord_bot = simple_discord.simple_discord_bot()
-  <br>
-  discord_bot.add_command("!hi", "Hello!) #Add a command
-  <br>
-  discord_bot.config(show_dms=True, status="idle", activity="This is a bot made with simple_discord!") #Changing some settings
-  <br>
-  discord_bot.set_token("Token Here") #Put your token there.
+    
+    from simple_discord import simple_discord_bot #Import the library
+    discord_bot = simple_discord.simple_discord_bot()
+    discord_bot.add_command("!hi", "Hello!) #Add a command
+    discord_bot.config(show_dms=True, status="idle", activity="This is a bot made with simple_discord!") #Changing some settings
+    discord_bot.set_token("Token Here") #Put your token there.
 </code>
 
 <h1>Help and Support</h1>
