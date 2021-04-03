@@ -22,11 +22,13 @@
 
     discord_bot = simple_discord.simple_discord_bot()
 
-    discord_bot.add_command("!test", "You just created a Discord bot!") #The first two parameters are required. The first one is the message that you send to               trigger the response, and the #second one is the message the bot will respond with.
+    discord_bot.add_command("!test", "You just created a Discord bot!") #The first two parameters are required. The first one is the message that you send to trigger the response, and the second one is the message the bot will respond with.
  
     discord_bot.add_command("!ping", "Pong!") #You have no limit on the commands you can add to your bot.
   
-    discord_bot.set_token("Put your bot's token here") #Put your bot's token in the double quotes.</code>
+    discord_bot.set_token("Put your bot's token here") #Put your bot's token in the double quotes.
+    
+  </code>
 
   <br>
   <h3><b>CAUTION</b></h3>
